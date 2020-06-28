@@ -18,25 +18,25 @@ Now create a dart file and add these codes.
 import 'package:simple_moment/simple_moment.dart';
 
 class LocaleAr implements ILocaleData {
-  String get seconds => 'ثواني';
+  String get seconds => '1 ثانية';
 
   String get aMinute => 'دقيقة';
-  String get minutes => '%i الدقائق';
+  String get minutes => '%i دقيقة';
 
-  String get anHour => 'ساعة';
-  String get hours => '%i ساعات';
+  String get anHour => '1 ساعة';
+  String get hours => '%i ساعة';
 
-  String get aDay => 'يوم';
-  String get days => '%i أيام';
+  String get aDay => '1 يوم';
+  String get days => '%i يوم';
 
-  String get aMonth => 'شهر';
+  String get aMonth => '1 شهر';
   String get months => '%i شهر';
 
-  String get aYear => 'الأمم المتحدة';
-  String get years => '%i أعوام';
+  String get aYear => ' 1 سنه';
+  String get years => '%i سنه';
 
-  String get futureIdentifier => 'ar';
-  String get pastIdentifier => 'il y a';
+  String get futureIdentifier => 'خلال';
+  String get pastIdentifier => 'قبل';
 
   IdentifierPosition get futurePosition => IdentifierPosition.prepend;
   IdentifierPosition get pastPosition => IdentifierPosition.prepend;
